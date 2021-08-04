@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background:rgb(27, 27,27);
+}
+.container 
+{
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+.card
+{
+    background:white;
+    width: 240px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    background: aqua;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+   
+}
+.card-1
+{
+ background-image:url('./img/sabiduria.png') ;
+}
+.card-2
+{
+ background-image:url('./img/entendimiento.png') ;
+}
+.card-3
+{
+ background-image:url('./img/consejo.png') ;
+}
+.card-4
+{
+ background-image:url('./img/ciencia.png') ;
+}
+.card-5
+{
+ background-image:url('./img/piedad.png') ;
+}
+.card-6
+{
+ background-image:url('./img/fortaleza.png') ;
+}
+.card-7
+{
+ background-image:url('./img/temordeDios.png') ;
+}
